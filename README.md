@@ -53,11 +53,11 @@ NB. Se nelle impostazioni la password e una stringa vuota ti avvisa. Ti chieder√
 ## GIT - portare il progetto su GitHub
 Creare su GitHub un progetto  
 accedere alla directory del progetto e lanciare il comando  
-git init
-git add .
-git commit -m "Primo commit"
-git remote add origin https://github.com/brandone1968/livewire-3-crash-course.git
-git push -u origin main 
+git init  
+git add .  
+git commit -m "Primo commit"  
+git remote add origin https://github.com/brandone1968/livewire-3-crash-course.git  
+git push -u origin main   
 
 git push -f origin main	PER FORZARE NEL CASO IL REPOSITORI DI DESTINAZIONE CONTENGA QUALCOSA, ANCHE SOLO UN README.md  
 
