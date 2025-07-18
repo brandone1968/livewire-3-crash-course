@@ -38,7 +38,7 @@ aggiungi al fondo questa riga
 salva ed esci  
 quindi o chiudi il terminale e lo riapri o lanci *source ~/.bashrc*  
 
-### Crea la chiave
+### Configura .env
 Controlla che il file .env sia presente, altrimenti duplica e rinomina quello di esempio
 ### Crea la chiave
 sail php artisan key:generate  
@@ -53,14 +53,13 @@ NB. Se nelle impostazioni la password e una stringa vuota ti avvisa. Ti chieder√
 ## GIT - portare il progetto su GitHub
 Creare su GitHub un progetto  
 accedere alla directory del progetto e lanciare il comando  
-git init  
-git add .  
-git commit -m "Primo commit"  
-git remote add origin https://github.com/brandone1968/blog-base-breeze.git  
-git remote -v  
-git push --set-upstream origin main  
+git init
+git add .
+git commit -m "Primo commit"
+git remote add origin https://github.com/brandone1968/livewire-3-crash-course.git
+git push -u origin main 
 
-git push -f origin main	PER FORZARE   
+git push -f origin main	PER FORZARE NEL CASO IL REPOSITORI DI DESTINAZIONE CONTENGA QUALCOSA, ANCHE SOLO UN README.md  
 
 
 ## Languages and Tools:
